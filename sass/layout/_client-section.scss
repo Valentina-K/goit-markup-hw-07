@@ -1,9 +1,9 @@
-.client-list-item {
+.list__item-client {
     flex-basis: calc((100% - 150px)/6);
     margin-left: 30px;
 }
 
-.client-link {
+.list__link-client {
     width: 170px;
     height: 92px;
     @include flex(flex,center,center);
@@ -16,11 +16,11 @@
     }
 }
 
-.client-icon {
+.list__icon-client {
     fill: var(--icon-color);
 
-    .client-link:hover &,
-    .client-link:focus & {
+    .list__link-client:hover &,
+    .list__link-client:focus & {
         fill: var(--accent-color);
     }
 }

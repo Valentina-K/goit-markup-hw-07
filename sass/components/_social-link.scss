@@ -1,4 +1,4 @@
-.social-link {
+.social-list__link {
     @include flex(flex,center,center);
     width: 44px;
     height: 44px;
@@ -9,8 +9,8 @@
     &:focus{
         background-color: var(--accent-color);
     }
-    &:hover .social-link-icon,
-    &:focus .social-link-icon{
+    &:hover .social-list__icon,
+    &:focus .social-list__icon{
         fill: var(--white-color);
     }
 }

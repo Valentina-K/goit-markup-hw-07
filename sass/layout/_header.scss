@@ -2,15 +2,19 @@
     border-bottom: 1px solid var(--border-color);
 }
 
+.header-page__logo{
+    margin-right: 94px;
+}
+
 .header-address {
     margin-left: auto;
 }
 
-.nav-list:not(:last-child) {
+.list_nav:not(:last-child) {
     margin-right: 50px;
 }
 
-.nav {
+.list__link-nav {
     color: var(--second-text-color);
     padding: 32px 0;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
