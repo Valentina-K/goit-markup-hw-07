@@ -6,9 +6,7 @@
 .client-link {
     width: 170px;
     height: 92px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex(flex,center,center);
     border: 1px solid var(--icon-color);
     border-radius: 4px;
 

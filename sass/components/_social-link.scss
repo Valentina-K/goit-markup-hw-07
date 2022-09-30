@@ -1,7 +1,5 @@
 .social-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex(flex,center,center);
     width: 44px;
     height: 44px;
     border-radius: 50%;

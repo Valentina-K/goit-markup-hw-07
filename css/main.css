@@ -82,9 +82,9 @@ body {
 }
 
 .section-title {
-  font-weight: 700;
   font-size: 36px;
-  line-height: 1.17;
+  font-weight: 700;
+  line-height: 1.1666666667;
   text-align: center;
   color: var(--second-text-color);
   margin-bottom: 50px;
@@ -140,9 +140,9 @@ body {
 
 .logo {
   font-family: var(--second-font-family);
-  font-weight: 700;
   font-size: 26px;
-  line-height: 1.2;
+  font-weight: 700;
+  line-height: 1.1923076923;
   margin-right: 94px;
 }
 
@@ -390,9 +390,9 @@ body {
 }
 
 .hero-title {
-  font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
+  font-weight: 900;
+  line-height: 1.3636363636;
   letter-spacing: 0.06em;
   color: var(--white-color);
   text-align: center;
@@ -427,8 +427,8 @@ body {
   background-color: var(--section-bg-color);
   margin-bottom: 30px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 .uniq-title {
@@ -515,8 +515,8 @@ body {
   width: 170px;
   height: 92px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   border: 1px solid var(--icon-color);
   border-radius: 4px;
 }
