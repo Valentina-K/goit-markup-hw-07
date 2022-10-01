@@ -2,12 +2,12 @@
     padding-bottom: 94px;
 }
 
-.img-list {
+.list__item-img {
     position: relative;
     flex-basis: calc((100% - 60px)/3);
 }
 
-.img-list:not(:last-child) {
+.list__item-img:not(:last-child) {
     margin-right: 30px;
 }
 
